@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CDBD62856C8729ACE3C72DE /* Pods_baguette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C1425449E892BA5E00E527 /* Pods_baguette.framework */; };
+		A6BBF1C77AF37D81E30AA796 /* Pods_baguetteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AADF5593C241D5EC97B4B6 /* Pods_baguetteTests.framework */; };
 		D65AB914293E12E9000EDBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AB913293E12E9000EDBFC /* AppDelegate.swift */; };
 		D65AB916293E12E9000EDBFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AB915293E12E9000EDBFC /* SceneDelegate.swift */; };
 		D65AB918293E12E9000EDBFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AB917293E12E9000EDBFC /* MainViewController.swift */; };
-		D65AB91B293E12E9000EDBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65AB919293E12E9000EDBFC /* Main.storyboard */; };
 		D65AB91D293E12EA000EDBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65AB91C293E12EA000EDBFC /* Assets.xcassets */; };
 		D65AB920293E12EA000EDBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65AB91E293E12EA000EDBFC /* LaunchScreen.storyboard */; };
 		D65AB92B293E12EA000EDBFC /* baguetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AB92A293E12EA000EDBFC /* baguetteTests.swift */; };
@@ -18,6 +19,8 @@
 		D65AB937293E12EA000EDBFC /* baguetteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65AB936293E12EA000EDBFC /* baguetteUITestsLaunchTests.swift */; };
 		D6D0DC1329420BE200503717 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0DC1229420BE200503717 /* LoginViewController.swift */; };
 		D6D0DC152942109900503717 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0DC142942109900503717 /* BaseViewController.swift */; };
+		D6FB94E229796D02002BBA94 /* ViweAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB94E129796D02002BBA94 /* ViweAnchor.swift */; };
+		D812CB06FE18E2997D677C8C /* Pods_baguette_baguetteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E9CAFF766E1DC27E17E8C6 /* Pods_baguette_baguetteUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49AADF5593C241D5EC97B4B6 /* Pods_baguetteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baguetteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C64CD99F49A421FBBC1360F /* Pods-baguette-baguetteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguette-baguetteUITests.release.xcconfig"; path = "Target Support Files/Pods-baguette-baguetteUITests/Pods-baguette-baguetteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67C1425449E892BA5E00E527 /* Pods_baguette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baguette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B7EACE9A7B2AA5C68BF2CB /* Pods-baguetteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguetteTests.debug.xcconfig"; path = "Target Support Files/Pods-baguetteTests/Pods-baguetteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		832CD88681D23C3386156639 /* Pods-baguette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguette.debug.xcconfig"; path = "Target Support Files/Pods-baguette/Pods-baguette.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E9CAFF766E1DC27E17E8C6 /* Pods_baguette_baguetteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baguette_baguetteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB227945C8985D2DB87658D5 /* Pods-baguetteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguetteTests.release.xcconfig"; path = "Target Support Files/Pods-baguetteTests/Pods-baguetteTests.release.xcconfig"; sourceTree = "<group>"; };
 		D65AB910293E12E9000EDBFC /* baguette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baguette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65AB913293E12E9000EDBFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D65AB915293E12E9000EDBFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D65AB917293E12E9000EDBFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		D65AB91A293E12E9000EDBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D65AB91C293E12EA000EDBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65AB91F293E12EA000EDBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65AB921293E12EA000EDBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,8 +60,12 @@
 		D65AB930293E12EA000EDBFC /* baguetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baguetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65AB934293E12EA000EDBFC /* baguetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baguetteUITests.swift; sourceTree = "<group>"; };
 		D65AB936293E12EA000EDBFC /* baguetteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baguetteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69E0FB92944A4FE0002DBE6 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Medium.otf"; path = "../../../../Downloads/Noto_Sans_KR/NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		D6D0DC1229420BE200503717 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D6D0DC142942109900503717 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D6FB94E129796D02002BBA94 /* ViweAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViweAnchor.swift; sourceTree = "<group>"; };
+		D8FF10665382EB53E1FA000B /* Pods-baguette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguette.release.xcconfig"; path = "Target Support Files/Pods-baguette/Pods-baguette.release.xcconfig"; sourceTree = "<group>"; };
+		DEE3C16153D92B68D73815FE /* Pods-baguette-baguetteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baguette-baguetteUITests.debug.xcconfig"; path = "Target Support Files/Pods-baguette-baguetteUITests/Pods-baguette-baguetteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDBD62856C8729ACE3C72DE /* Pods_baguette.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BBF1C77AF37D81E30AA796 /* Pods_baguetteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D812CB06FE18E2997D677C8C /* Pods_baguette_baguetteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54F29168078D1725A212BDE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C1425449E892BA5E00E527 /* Pods_baguette.framework */,
+				A5E9CAFF766E1DC27E17E8C6 /* Pods_baguette_baguetteUITests.framework */,
+				49AADF5593C241D5EC97B4B6 /* Pods_baguetteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA849ADA72F541673ADB087 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832CD88681D23C3386156639 /* Pods-baguette.debug.xcconfig */,
+				D8FF10665382EB53E1FA000B /* Pods-baguette.release.xcconfig */,
+				DEE3C16153D92B68D73815FE /* Pods-baguette-baguetteUITests.debug.xcconfig */,
+				5C64CD99F49A421FBBC1360F /* Pods-baguette-baguetteUITests.release.xcconfig */,
+				70B7EACE9A7B2AA5C68BF2CB /* Pods-baguetteTests.debug.xcconfig */,
+				CB227945C8985D2DB87658D5 /* Pods-baguetteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D65AB907293E12E9000EDBFC = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				D65AB929293E12EA000EDBFC /* baguetteTests */,
 				D65AB933293E12EA000EDBFC /* baguetteUITests */,
 				D65AB911293E12E9000EDBFC /* Products */,
+				5CA849ADA72F541673ADB087 /* Pods */,
+				54F29168078D1725A212BDE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +144,16 @@
 		D65AB912293E12E9000EDBFC /* baguette */ = {
 			isa = PBXGroup;
 			children = (
+				D69E0FB8294496680002DBE6 /* Font */,
 				D65AB913293E12E9000EDBFC /* AppDelegate.swift */,
 				D65AB915293E12E9000EDBFC /* SceneDelegate.swift */,
 				D65AB917293E12E9000EDBFC /* MainViewController.swift */,
-				D65AB919293E12E9000EDBFC /* Main.storyboard */,
 				D65AB91C293E12EA000EDBFC /* Assets.xcassets */,
 				D65AB91E293E12EA000EDBFC /* LaunchScreen.storyboard */,
 				D65AB921293E12EA000EDBFC /* Info.plist */,
 				D6D0DC1229420BE200503717 /* LoginViewController.swift */,
 				D6D0DC142942109900503717 /* BaseViewController.swift */,
+				D6FB94E129796D02002BBA94 /* ViweAnchor.swift */,
 			);
 			path = baguette;
 			sourceTree = "<group>";
@@ -133,6 +175,14 @@
 			path = baguetteUITests;
 			sourceTree = "<group>";
 		};
+		D69E0FB8294496680002DBE6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D69E0FB92944A4FE0002DBE6 /* NotoSansKR-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65AB93A293E12EA000EDBFC /* Build configuration list for PBXNativeTarget "baguette" */;
 			buildPhases = (
+				7AD0E1F178550CE466934545 /* [CP] Check Pods Manifest.lock */,
 				D65AB90C293E12E9000EDBFC /* Sources */,
 				D65AB90D293E12E9000EDBFC /* Frameworks */,
 				D65AB90E293E12E9000EDBFC /* Resources */,
+				4E7CA44FBFA4667F9D394E3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65AB93D293E12EA000EDBFC /* Build configuration list for PBXNativeTarget "baguetteTests" */;
 			buildPhases = (
+				844BF0E40D2859A2E5AEDAC7 /* [CP] Check Pods Manifest.lock */,
 				D65AB922293E12EA000EDBFC /* Sources */,
 				D65AB923293E12EA000EDBFC /* Frameworks */,
 				D65AB924293E12EA000EDBFC /* Resources */,
@@ -175,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65AB940293E12EA000EDBFC /* Build configuration list for PBXNativeTarget "baguetteUITests" */;
 			buildPhases = (
+				652E9D4BF7C9C4949461F3E8 /* [CP] Check Pods Manifest.lock */,
 				D65AB92C293E12EA000EDBFC /* Sources */,
 				D65AB92D293E12EA000EDBFC /* Frameworks */,
 				D65AB92E293E12EA000EDBFC /* Resources */,
+				7791C5034AF35B8D21FCFC53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +294,6 @@
 			files = (
 				D65AB920293E12EA000EDBFC /* LaunchScreen.storyboard in Resources */,
 				D65AB91D293E12EA000EDBFC /* Assets.xcassets in Resources */,
-				D65AB91B293E12E9000EDBFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +313,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E7CA44FBFA4667F9D394E3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baguette/Pods-baguette-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baguette/Pods-baguette-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baguette/Pods-baguette-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652E9D4BF7C9C4949461F3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baguette-baguetteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7791C5034AF35B8D21FCFC53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baguette-baguetteUITests/Pods-baguette-baguetteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baguette-baguetteUITests/Pods-baguette-baguetteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baguette-baguetteUITests/Pods-baguette-baguetteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD0E1F178550CE466934545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baguette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844BF0E40D2859A2E5AEDAC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baguetteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D65AB90C293E12E9000EDBFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D6D0DC152942109900503717 /* BaseViewController.swift in Sources */,
+				D6FB94E229796D02002BBA94 /* ViweAnchor.swift in Sources */,
 				D65AB918293E12E9000EDBFC /* MainViewController.swift in Sources */,
 				D65AB914293E12E9000EDBFC /* AppDelegate.swift in Sources */,
 				D6D0DC1329420BE200503717 /* LoginViewController.swift in Sources */,
@@ -305,14 +463,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D65AB919293E12E9000EDBFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D65AB91A293E12E9000EDBFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D65AB91E293E12EA000EDBFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,18 +590,20 @@
 		};
 		D65AB93B293E12EA000EDBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832CD88681D23C3386156639 /* Pods-baguette.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9U7VZ9D2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = baguette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,18 +619,20 @@
 		};
 		D65AB93C293E12EA000EDBFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FF10665382EB53E1FA000B /* Pods-baguette.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9U7VZ9D2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = baguette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +648,7 @@
 		};
 		D65AB93E293E12EA000EDBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B7EACE9A7B2AA5C68BF2CB /* Pods-baguetteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +668,7 @@
 		};
 		D65AB93F293E12EA000EDBFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB227945C8985D2DB87658D5 /* Pods-baguetteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +688,7 @@
 		};
 		D65AB941293E12EA000EDBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE3C16153D92B68D73815FE /* Pods-baguette-baguetteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +706,7 @@
 		};
 		D65AB942293E12EA000EDBFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C64CD99F49A421FBBC1360F /* Pods-baguette-baguetteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
